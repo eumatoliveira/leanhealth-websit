@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Thank You - Lean Health Consultancy</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7c3bed",
+                        "background-light": "#f7f6f8",
+                        "background-dark": "#171121",
+                        "surface-dark": "#231a33",
+                        "accent-pink": "#d946ef",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .gradient-text {
+            background: linear-gradient(to right, #ffffff, #d946ef);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glow-effect {
+            box-shadow: 0 0 40px -10px rgba(124, 59, 237, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display overflow-x-hidden min-h-screen flex flex-col">
+<!-- Navbar -->
+<header class="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-[#312447] bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-3">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4C12.95 4 4 12.95 4 24H24V4Z" fill="currentColor"></path>
+<path d="M24 44C35.05 44 44 35.05 44 24H24V44Z" fill="currentColor" fill-opacity="0.6"></path>
+<path d="M44 24C44 12.95 35.05 4 24 4V24H44Z" fill="currentColor" fill-opacity="0.3"></path>
+<path d="M4 24C4 35.05 12.95 44 24 44V24H4Z" fill="currentColor" fill-opacity="0.8"></path>
+</svg>
+</div>
+<span class="text-lg font-bold tracking-tight dark:text-white">Lean Health</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300" href="#">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300" href="#">Services</a>
+<a class="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300" href="#">Case Studies</a>
+<a class="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300" href="#">About</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:flex items-center justify-center rounded-lg h-9 px-4 bg-primary hover:bg-primary/90 transition-colors text-white text-sm font-bold shadow-lg shadow-primary/25">
+                        Get Free Analysis
+                    </button>
+<button class="md:hidden text-gray-500 dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow flex flex-col items-center justify-center relative py-12 px-4 sm:px-6">
+<!-- Background decorative elements -->
+<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
+<div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent-pink/10 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
+<div class="max-w-4xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<!-- Left Column: Success Message -->
+<div class="flex flex-col items-center lg:items-start text-center lg:text-left space-y-6">
+<div class="flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 border border-primary/20 text-primary mb-2 animate-bounce">
+<span class="material-symbols-outlined text-5xl">check_circle</span>
+</div>
+<div class="space-y-4">
+<h1 class="text-4xl sm:text-5xl font-black tracking-tight dark:text-white">
+                        Request <br/><span class="gradient-text">Received!</span>
+</h1>
+<p class="text-lg text-gray-600 dark:text-gray-300 max-w-md mx-auto lg:mx-0 leading-relaxed">
+                        Thank you for reaching out. We are reviewing your details and are excited to help transform your healthcare processes.
+                    </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 pt-4 w-full sm:w-auto">
+<a class="flex items-center justify-center rounded-lg h-12 px-6 bg-surface-dark border border-gray-700 hover:border-primary/50 text-white font-medium transition-all w-full sm:w-auto group" href="#">
+<span class="mr-2">Return to Home</span>
+<span class="material-symbols-outlined text-lg group-hover:-translate-x-1 transition-transform">arrow_back</span>
+</a>
+</div>
+</div>
+<!-- Right Column: Timeline / Next Steps Card -->
+<div class="relative w-full">
+<!-- Card Container -->
+<div class="relative bg-white dark:bg-surface-dark border border-gray-200 dark:border-[#463366] rounded-2xl p-8 glow-effect overflow-hidden">
+<!-- Subtle top gradient line -->
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent-pink"></div>
+<h2 class="text-xl font-bold dark:text-white mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">rocket_launch</span>
+                        What happens next?
+                    </h2>
+<!-- Timeline Component -->
+<div class="grid grid-cols-[32px_1fr] gap-x-4">
+<!-- Step 1 -->
+<div class="flex flex-col items-center">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-primary/20 text-primary ring-2 ring-background-light dark:ring-surface-dark">
+<span class="material-symbols-outlined text-sm font-bold">mail</span>
+</div>
+<div class="w-0.5 bg-gray-200 dark:bg-[#463366] h-full my-2"></div>
+</div>
+<div class="pb-8 pt-1">
+<h3 class="text-base font-semibold dark:text-white">Check your Email or WhatsApp</h3>
+<p class="text-sm text-gray-500 dark:text-[#a692c8] mt-1">
+                                We've sent a confirmation link immediately. Please check your spam folder if you don't see it.
+                            </p>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col items-center">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-background-light dark:bg-[#312447] text-gray-400 dark:text-gray-300 ring-2 ring-background-light dark:ring-surface-dark">
+<span class="material-symbols-outlined text-sm font-bold">edit_document</span>
+</div>
+<div class="w-0.5 bg-gray-200 dark:bg-[#463366] h-full my-2"></div>
+</div>
+<div class="pb-8 pt-1">
+<h3 class="text-base font-semibold dark:text-white">Complete Preliminary Form</h3>
+<p class="text-sm text-gray-500 dark:text-[#a692c8] mt-1">
+                                A short form is included in the message to help us understand your current workflow challenges.
+                            </p>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col items-center">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-background-light dark:bg-[#312447] text-gray-400 dark:text-gray-300 ring-2 ring-background-light dark:ring-surface-dark">
+<span class="material-symbols-outlined text-sm font-bold">calendar_month</span>
+</div>
+</div>
+<div class="pt-1">
+<h3 class="text-base font-semibold dark:text-white">Schedule Optional Consultation</h3>
+<p class="text-sm text-gray-500 dark:text-[#a692c8] mt-1">
+                                Ready to talk? Use the provided Calendly link to book a free 30-min strategy call.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- "While you wait" Teaser Section -->
+<div class="max-w-4xl w-full mt-20 sm:mt-32">
+<div class="flex flex-col sm:flex-row justify-between items-end gap-6 mb-8 border-b border-gray-200 dark:border-[#312447] pb-4">
+<div>
+<h3 class="text-2xl font-bold dark:text-white">Explore Our Impact</h3>
+<p class="text-gray-600 dark:text-[#a692c8] mt-2">See how we've optimized workflows while you wait.</p>
+</div>
+<a class="text-primary hover:text-accent-pink font-semibold text-sm flex items-center gap-1 transition-colors" href="#">
+                    View all Case Studies <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Feature 1 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[4/3] bg-surface-dark">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105 opacity-60 mix-blend-overlay" data-alt="Abstract blue gradient pattern representing technology flow" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDJJ0hr5dyj000OC-kuP0DtEB-M5niPEAybDbVn8KTATGh0xr8L1dG-EeV7TAJtrDgXKCo0iNR6bDRuY62GDfNCX-xEAl9uYhlqwCcWsxTxDoZZ-mt3ZZZ_FqxfihWpYuycMSiSg6fMBb6w9dfH01cH3xtptg5kbf2q3GkYpz9SOXqspOGjNsN4JkAz0Xp-gGLb18WdRy-01k7Bf34Mc_Kxbg25HtkS5pPwkQjUtjenES9kBZ85vDqL_JnPZtbdnE1Q48iS98vnZiI');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/50 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<div class="text-primary mb-2">
+<span class="material-symbols-outlined">emergency</span>
+</div>
+<h4 class="text-white font-bold text-lg leading-tight">Emergency Room Efficiency</h4>
+<p class="text-gray-400 text-xs mt-1">Reduced wait times by 40%</p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[4/3] bg-surface-dark">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105 opacity-60 mix-blend-overlay" data-alt="Abstract purple geometric shapes representing structure" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDz4OvCbQo9jtcapncrEt7WG-euGNei2Gs0ZLP0C1PYDMYUI6y7LLcR-sM6c_gq8uxjjD53B9Ws0fW3N3aO7Zn5SbdsZd3mEu8YMfcboxip6krvOxAwFsbYa5oYfiAOkWzEuqJsSj2mBUCUq1Lm0f3e8X7MfFZsEc2lfAL2EHIT1Oxow5ugwYlQtckY7xhA0v7MuJOL_eejl_F4_20bRk4HMX9ZMPQrusghJQgXB9ZiCS6XpA_NshGth-vEcA8Ef6x2hVFdOVfMwhs');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/50 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<div class="text-accent-pink mb-2">
+<span class="material-symbols-outlined">diversity_1</span>
+</div>
+<h4 class="text-white font-bold text-lg leading-tight">Patient Intake Streamlining</h4>
+<p class="text-gray-400 text-xs mt-1">Paperless within 3 weeks</p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[4/3] bg-surface-dark">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105 opacity-60 mix-blend-overlay" data-alt="Abstract dark network nodes connection graphic" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1MwQzqHlkAAOX-SW1Ex9cYngBy_op06uRzXFj_8EN62k6JfnSC4G9qFru-2x8BjxrfZhjjeYPL0v0Qetvo39BztnEBlDPpyx-sNtpfnUeYYslzP0SH5L__omMOfrAQSmUREtZr-tkUI26Nrc57EgrtQp2Lqhj2-1xNL9tGlM0YwFX4O8LG9Y2c9iHafGqBEIebqHqRF_TtmWkeprmMs2e5NnamaHOiZLogiC69mMgIF3PSae_vqFOcBbqNxeZhY4D6JZuLtrpQ5s');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/50 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<div class="text-white mb-2">
+<span class="material-symbols-outlined">inventory_2</span>
+</div>
+<h4 class="text-white font-bold text-lg leading-tight">Inventory Management</h4>
+<p class="text-gray-400 text-xs mt-1">Saved $200k annually</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="border-t border-gray-200 dark:border-[#312447] bg-white dark:bg-background-dark py-8 mt-auto">
+<div class="max-w-[960px] mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
+<p class="text-gray-500 dark:text-[#a692c8] text-sm">© 2024 Lean Health Consultancy. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">policy</span>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">gavel</span>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+</div>
+</div>
+</footer>
+</body></html>
